@@ -14,7 +14,7 @@ variable "vpc_cidr" {
 variable "vpc_azs" {
   description = "List of AZs"
   type        = list(string)
-  default     = ["eu-west-2", "eu-west-3"]
+  default     = ["eu-west-3a", "eu-west-3b"]
 }
 
 variable "vpc_public_subnets" {
